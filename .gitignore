@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# misc
+.vim/
+credentials.json
+token.pickle
