@@ -102,9 +102,12 @@ def main():
 
     # Call the Gmail API
     messages = list_messages_with_labels(service, "me", label_ids=["SPAM"])
-    test_message = get_message(service, "me", messages[0]["id"])
-    # return test_message
-    print(test_message.keys())
+    subjects = []
+    for message in messages:
+        s = get_message(service, "me", message["id"])
+        subjects.append(s["subject"])
+
+    print(subjects)
 
 
 if __name__ == "__main__":
