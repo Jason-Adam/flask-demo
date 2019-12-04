@@ -4,17 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-pandas = "*"
 numpy = "*"
-matplotlib = "*"
-ipykernel = "*"
-yellowbrick = "*"
-scikit-learn = "*"
 Flask = "*"
-google-api-python-client = "*"
-google-auth-httplib2 = "*"
-google-auth-oauthlib = "*"
-beautifulsoup4 = "*"
+tensorflow = "*"
+pillow = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
