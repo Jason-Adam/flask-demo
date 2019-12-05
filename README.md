@@ -12,6 +12,7 @@ docker-compose build
 docker-compose up
 ```  
 
+## Send Requests  
 Once you've deployed the model (it takes a few seconds for the ResNet-50 model to load), you can send image requests to it with the following command:  
 
 ```bash  
