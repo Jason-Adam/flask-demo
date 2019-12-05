@@ -18,6 +18,9 @@ Once you've deployed the model (it takes a few seconds for the ResNet-50 model t
 curl -X POST -F image=@imgs/husky.jpg "https://localhost:5000"
 ```  
 
+The command sends the following image to the API:  
+![](imgs/husky.jpg)
+
 You should receive a JSON response object with predictions for the image.  
 
 ```json  
