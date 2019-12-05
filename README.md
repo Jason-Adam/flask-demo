@@ -18,4 +18,32 @@ Once you've deployed the model (it takes a few seconds for the ResNet-50 model t
 curl -X POST -F image=@imgs/husky.jpg "https://localhost:5000"
 ```  
 
-You should receive a JSON response object with predictions for the image.
+You should receive a JSON response object with predictions for the image.  
+
+```json  
+{
+  "predictions": [
+    {
+      "label": "Eskimo_dog",
+      "probability": 0.5135327577590942
+    },
+    {
+      "label": "Siberian_husky",
+      "probability": 0.35967519879341125
+    },
+    {
+      "label": "malamute",
+      "probability": 0.10648568719625473
+    },
+    {
+      "label": "collie",
+      "probability": 0.004213731735944748
+    },
+    {
+      "label": "timber_wolf",
+      "probability": 0.003469904651865363
+    }
+  ],
+  "success": true
+}  
+```
