@@ -2,7 +2,7 @@
 This repo contains everything needed to deploy a pre-trained ResNet-50 CNN as an API endpoint utilizing [Flask](https://flask.palletsprojects.com/en/1.1.x/), [Gunicorn](https://gunicorn.org/), [NGINX](https://www.nginx.com/), and [Docker](https://www.docker.com/).  
 
 ## ResNet-50
-ResNet-50 refers to a 50 layer residual neural network that is commonly used to classify images. ResNet-50 was trained on more than a million images from the ImageNet database and can classify images into 1000 object categories. The use of a wide array of images resulted in rich feature representations that can be applied to very broadly.  
+ResNet-50 refers to a 50 layer residual neural network that is commonly used to classify images. ResNet-50 was trained on more than one million images from the ImageNet database and can classify images into 1000 object categories. The use of a wide array of images resulted in rich feature representations that can be applied broadly.  
 
 ## Deploy the API  
 The API can be deployed locally using `docker-compose`. The following commands will launch the flask API on your localhost.  
