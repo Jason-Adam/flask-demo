@@ -15,14 +15,6 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 
-## Lint using flake8
-lint:
-	flake8
-
-## Set up python virtual environment
-create_environment:
-	pipenv install --dev --skip-lock
-
 ## Bind ipython kernel to env: only run after "pipenv shell"
 bind_kernel:
 	ipython kernel install --user --name=$(PROJECT_DIR)
