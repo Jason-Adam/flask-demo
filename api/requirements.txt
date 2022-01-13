@@ -23,7 +23,7 @@ markupsafe==1.1.1
 numpy==1.17.4
 oauthlib==3.1.0
 opt-einsum==3.1.0
-pillow==6.2.1
+pillow==9.0.0
 protobuf==3.11.1
 pyasn1-modules==0.2.7
 pyasn1==0.4.8
